@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Microscope Size Calculator</title>
+    <link rel="stylesheet" href="../Web_template/Static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Microscope Size Calculator</h2>
+        <form method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="number" step="0.01" name="size" placeholder="Microscope Size" required>
+            <input type="number" step="0.01" name="magnification" placeholder="Magnification" required>
+            <button type="submit">Calculate</button>
+        </form>
+        {% if result %}
+            <div class="result">{{ result }}</div>
+        {% endif %}
+    </div>
+</body>
+</html>
