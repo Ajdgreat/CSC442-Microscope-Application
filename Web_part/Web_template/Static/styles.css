@@ -16,11 +16,11 @@ body {
 input, button {
     display: block;
     width: 100%;
-    margin: 10px 0;
+    margin: 10px auto;
     padding: 10px;
 }
 .result {
     margin-top: 10px;
-    color: green;
+    color: rgb(188, 6, 6);
     font-weight: bold;
 }
